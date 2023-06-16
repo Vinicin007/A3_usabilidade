@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+  font-family: 'Righteous', cursive;
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  background: rgb(251,244,217);
+background: linear-gradient(90deg, rgba(251,244,217,1) 0%, rgba(254,250,224,1) 3%, rgba(254,250,224,1) 13%, rgba(219,178,134,1) 64%, rgba(212,163,115,1) 100%, rgba(140,85,32,1) 100%, rgba(229,198,159,1) 100%);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(https://wallpaperaccess.com/full/934072.jpg);
+  background-attachment: fixed;
+  font-size: 25px;
+ background-repeat: no-repeat;
+  font-family:'Montserrat' ;
+  color:#faedcd;
+}
+
+.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgb(251,244,217);
+background: linear-gradient(90deg, rgba(251,244,217,1) 0%, rgba(254,250,224,1) 3%, rgba(254,250,224,1) 13%, rgba(219,178,134,1) 64%, rgba(212,163,115,1) 100%, rgba(140,85,32,1) 100%, rgba(229,198,159,1) 100%);
+
+}
+
+.cabeçalho_menu{
+  display: flex;
+  padding-left: 10px;
+  gap: 32px;
+  font-weight: 400 ;
+  font-size: 18px;
+}
+
+.livro_logo {
+  height: 74px;
+}
+
+.home {
+  border-top: 0.4px solid #d4a373;
+  margin-bottom: 48px;
+  
+}
+
+.conteudo_principal {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.conteudo_principal_escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo_principal_titulo {
+  font-weight: 850;
+  font-size: 64px;
+  color: #faedcd;
+  padding-left: 50px;
+}
+
+.conteudo_principal_subtitulo {
+  font-weight: 400;
+  font-size: 24px;
+  color: #faedcd;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.conteudo_principal_imagem {
+  height: 550px;
+  padding-left: 200px;
+}
+
+.conteudo_secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+  padding-bottom: 50PX;
+  
+}
+
+.conteudo_secundario_titulo {
+  border-top: 0.4px solid #14213d;
+  padding-top: 48px;
+}
+
+.rodape {
+padding: 32px;
+border: top 0.4px solid #d4a373;
+}
+
+
+.title_review {
+  text-align: left;
+  text-decoration: none;
+  padding-top: 100px
+}
+
+.buton {
+  padding: 8px 25px;
+  background-color: #0f1111;
+  color: #faedcd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  align-self: center;
+}
+
+.buton:hover {
+  background-color: #121414;
+  color: #faedcd;
+  box-shadow: 3px 2px 5px burlywood;
+}
+
+.App {
+  display: flex;
+  background-image: url();
+  
+}
+
+.input_nome {
+  color: #0f1111;
+
+}
+
+
+.title_review {
+  text-align: center;
+}
+
+.imagem_livro {
+ 
+  float: left;
+
+  margin-right: 20px;
+  border-radius: 50px;
+  height: 650px;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 20px;
+  
+}
+
+.sinopse{
+  padding-top: 200px;
+  text-align: left;
+
+}
+
+
+.texto_review {
+  padding-top: 20px;
+  padding-left: 150px;
+  text-align: center;
+
+  
+
+}
+
+.adicionar_review {
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 110px;
+  padding-right: 150px;
+  
+
+}
+
+
+.titulo {
+  text-align: center;
+  justify-content: left;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 150; 
+
+}
+
+.escrever {
+  padding: 5px
+}
