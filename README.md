@@ -6,3 +6,5 @@ A3 usabilidade e desenvolvimento web.
 12522174269 - Felpe Gomes Revitte
 12522165894 - Flávio Ribeiro Lopes
 125222350101 - Pedro Henrique Valero Conte 
+
+o frontend se localiza no src/app.jsx e não no index.html
